@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+   <PropertyGroup>
+        <Title>MongoContext</Title>
+        <Description>It is a base project to make Mongo easier.</Description>
+        <PackageId>MongoContext.Core</PackageId>
+        <Authors>Éderson Curto do Nascimento (ederson.nascimento@outlook.com)</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MongoDB.Bson" Version="2.16.0" />
+      <PackageReference Include="MongoDB.Driver" Version="2.16.0" />
+      <PackageReference Include="MongoDB.Driver.Core" Version="2.16.0" />
+    </ItemGroup>
+</Project>
